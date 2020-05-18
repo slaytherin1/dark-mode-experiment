@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dark Mode Experiment</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
     <div class="center">
             <input type="checkbox" id="checkbox1" onchange="darkMode()" />
             <label for="checkbox1"></label>
             
-            <p>Dark Mode: ON</p>
-            <p>Dark Mode: OFF</p>
+            <p>
+                Dark Mode: ON 
+                <i class="fa fa-moon-o" aria-hidden="true"></i>
+            </p>
+            <p>
+                Dark Mode: OFF 
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+            </p>
     </div>
     <script src="main.js"></script>
 </body>
